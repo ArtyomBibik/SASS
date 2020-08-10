@@ -1,0 +1,47 @@
+$size:100px;
+$color:white;
+$header:940px;
+$headerHeight:200px;
+$HeaderColor:grey;
+$headerText:center;
+$text2Color:red;
+$text2ColorT2:yellow;
+$imgHeiht:550px;
+$imgWidth:350px;
+
+
+%message-shared {
+  text-decoration: underline;
+
+}
+header{
+  width:$header;
+  background:$HeaderColor;
+  height:$headerHeight;
+  text-align:$headerText;
+  
+}
+
+
+span{
+  font-size:$size/2;
+  color:$text2Color;
+  width:$header;
+  background:$text2ColorT2;
+}
+img{
+  height:$imgHeiht;
+  width:$imgWidth;
+  width:$header;
+  
+}
+span{
+a{
+
+  width:$header;
+  background:$HeaderColor;
+  height:$headerHeight;
+  text-align:$headerText;
+  @extend %message-shared;
+}
+}

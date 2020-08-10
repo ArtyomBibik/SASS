@@ -1,0 +1,29 @@
+span a {
+    text-decoration: underline;
+  }
+  header {
+    width: 940px;
+    background: grey;
+    height: 200px;
+    text-align: center;
+  }
+  
+  span {
+    font-size: 50px;
+    color: red;
+    width: 940px;
+    background: yellow;
+  }
+  
+  img {
+    height: 550px;
+    width: 350px;
+    width: 940px;
+  }
+  
+  span a {
+    width: 940px;
+    background: grey;
+    height: 200px;
+    text-align: center;
+  }
